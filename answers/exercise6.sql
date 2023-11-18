@@ -1,0 +1,4 @@
+SELECT COUNT(ID) Total, Country FROM STUDENTS
+GROUP BY Country
+HAVING Total > 10
+ORDER BY Total DESC;
